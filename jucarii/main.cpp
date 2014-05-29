@@ -1,18 +1,29 @@
-//
-//  main.cpp
-//  jucarii
-//
-//  Created by Cristina Metgher on 5/22/14.
-//  Copyright (c) 2014 cmetgher. All rights reserved.
-//
-
 #include <iostream>
+#include <list>
 
-int main(int argc, const char * argv[])
-{
+using namespace std;
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main(){
+    list<int> L;
+    L.push_back(0);
+    L.push_front(10);
+    
+    L.insert(++L.begin(), 2);
+    
+    L.push_back(5);
+    L.push_back(6);
+    L.push_front(9);
+    L.push_back(2);
+    L.push_front(0);
+    
+    list<int>::iterator i;
+    
+    for (i=L.begin(); i!=L.end(); ++i) {
+    
+        cout << *i << " ";
+    
+    }
+    
+
+
 }
-
