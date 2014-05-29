@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		941E02FE1937DAE6005344B7 /* Vectorss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 941E02FC1937DAE6005344B7 /* Vectorss.cpp */; };
 		941E03011937DBC9005344B7 /* Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 941E02FF1937DBC9005344B7 /* Lists.cpp */; };
+		941E03041937F065005344B7 /* LinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 941E03021937F065005344B7 /* LinkedLists.cpp */; };
 		945C738F192EEDE10097D91E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 945C738E192EEDE10097D91E /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		941E02FD1937DAE6005344B7 /* Vectorss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vectorss.h; path = jucarii/Vectorss.h; sourceTree = SOURCE_ROOT; };
 		941E02FF1937DBC9005344B7 /* Lists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lists.cpp; sourceTree = "<group>"; };
 		941E03001937DBC9005344B7 /* Lists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lists.h; sourceTree = "<group>"; };
+		941E03021937F065005344B7 /* LinkedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedLists.cpp; sourceTree = "<group>"; };
+		941E03031937F065005344B7 /* LinkedLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedLists.h; sourceTree = "<group>"; };
 		945C738B192EEDE10097D91E /* jucarii */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jucarii; sourceTree = BUILT_PRODUCTS_DIR; };
 		945C738E192EEDE10097D91E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = jucarii/main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -68,6 +71,8 @@
 				941E03001937DBC9005344B7 /* Lists.h */,
 				941E02FC1937DAE6005344B7 /* Vectorss.cpp */,
 				941E02FD1937DAE6005344B7 /* Vectorss.h */,
+				941E03021937F065005344B7 /* LinkedLists.cpp */,
+				941E03031937F065005344B7 /* LinkedLists.h */,
 			);
 			path = jucarii;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				941E03011937DBC9005344B7 /* Lists.cpp in Sources */,
 				941E02FE1937DAE6005344B7 /* Vectorss.cpp in Sources */,
+				941E03041937F065005344B7 /* LinkedLists.cpp in Sources */,
 				945C738F192EEDE10097D91E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

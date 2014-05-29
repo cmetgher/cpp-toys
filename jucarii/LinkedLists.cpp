@@ -1,28 +1,27 @@
+//
+//  LinkedLists.cpp
+//  jucarii
+//
+//  Created by Cristina Metgher on 5/29/14.
+//  Copyright (c) 2014 cmetgher. All rights reserved.
+//
+
+#include "LinkedLists.h"
 #include <iostream>
 #include <list>
-#include "Lists.h"
-#include "Vectorss.h"
-#include "LinkedLists.h"
-
 
 using namespace std;
 
-// Lists l;
-// l.printMe();
-//    
-//    Vectorss v;
-//    v.printIt();
-//    
+//LInked lists:
 
-#include <iostream>
-using namespace std;
+//halelyjah for nodes, w/o them there's no linked lists
 
-template<class T>
+template<class T> // we use templates to have the freedom to use more data types
 class node{
     
 private:
-	T Data;
-	node<T>* Link;
+	T Data;         //here we store data
+	node<T>* Link;  //here we store the address of the next element; it's of type node as it will point to another element in memory of type node
     
 public:
 	//constructor
@@ -35,7 +34,8 @@ public:
     
 };
 
-int main(){
+
+void LinkedLists::printMe(){
     
 	node<char> a('a'), b('b'), c('c');
     
@@ -50,6 +50,5 @@ int main(){
     
     //the list looks like this:
     //a --> b --> c
-    
-    return 0;
+
 }
