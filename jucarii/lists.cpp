@@ -1,3 +1,10 @@
+//
+//  lists.cpp
+//  jucarii
+//
+//  Created by Cristina Metgher on 5/29/14.
+//  Copyright (c) 2014 cmetgher. All rights reserved.
+//
 #include <iostream>
 #include <list>
 
@@ -21,10 +28,10 @@ int main(){
     list<int>::iterator i;
     
     for (i=SuperList.begin(); i!=SuperList.end(); ++i) {
-    
+        
         cout << *i << " " ;
-      }
+    }
     
-// will print 0 9 10 2 0 5 6 2 as it should
-
+    // will print 0 9 10 2 0 5 6 2 as it should
+    
 }

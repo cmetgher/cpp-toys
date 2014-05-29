@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		945C738F192EEDE10097D91E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 945C738E192EEDE10097D91E /* main.cpp */; };
-		945C7391192EEDE10097D91E /* jucarii.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 945C7390192EEDE10097D91E /* jucarii.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				945C7391192EEDE10097D91E /* jucarii.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -27,7 +25,6 @@
 /* Begin PBXFileReference section */
 		945C738B192EEDE10097D91E /* jucarii */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jucarii; sourceTree = BUILT_PRODUCTS_DIR; };
 		945C738E192EEDE10097D91E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		945C7390192EEDE10097D91E /* jucarii.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = jucarii.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				945C738E192EEDE10097D91E /* main.cpp */,
-				945C7390192EEDE10097D91E /* jucarii.1 */,
 			);
 			path = jucarii;
 			sourceTree = "<group>";
@@ -227,6 +223,7 @@
 				945C7396192EEDE10097D91E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
